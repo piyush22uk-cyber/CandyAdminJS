@@ -1,24 +1,31 @@
+
 {
   "expo": {
     "name": "CandyAdminJS",
     "slug": "CandyAdminJS",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/branding/icon.png",
     "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
+    "splash": {
+      "image": "./assets/branding/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F7F5"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+        "backgroundColor": "#168344",
+        "foregroundImage": "./assets/branding/adaptive-icon.png"
+      },
+      "package": "com.pardeep3344.CandyAdminJS"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "plugins": [
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2fcfcc8f-8a51-4509-a517-28f7471609e4"
+      }
     }
   }
 }
